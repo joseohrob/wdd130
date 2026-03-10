@@ -1,7 +1,14 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+
+}
+
+nav a {
     display: block;
+    padding: 1px;
+    color: white;
+
 }
 
 main {
