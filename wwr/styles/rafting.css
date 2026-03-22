@@ -17,7 +17,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -68,7 +68,7 @@ article {
 
 h1 {
     position: absolute;
-    width: 92.5%;
+    width: 96%;
     top: 20px;
     padding: 16px;
     text-align: center;
@@ -77,11 +77,11 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     left: 1px;
-    width: 94%;
+    width: 96%;
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
@@ -92,4 +92,8 @@ article {
 .hero article img {
     float: right;
     width: 135px;
+}
+
+footer {
+    color: var(--secondary-color)
 }
