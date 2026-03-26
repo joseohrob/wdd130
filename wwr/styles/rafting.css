@@ -50,6 +50,14 @@ article {
     padding: 8px;
 }
 
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -95,5 +103,13 @@ h1 {
 }
 
 footer {
-    color: var(--secondary-color)
+    color: var(--accent1-color)
+}
+
+figure {
+    width: 20%;
+    height: 10%;
+    height: auto;
+    display: grid;
+
 }
