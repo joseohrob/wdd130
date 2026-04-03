@@ -85,7 +85,6 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: #fff;
 }
 
 .hero article {
@@ -106,7 +105,7 @@ h1 {
 }
 
 footer {
-    color: var(--accent1-color);
+    color: var(--secondary-color);
     display: grid;
     justify-content: end;
 
@@ -114,7 +113,6 @@ footer {
 
 figure {
     width: 80px;
-    height: auto;
     height: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
