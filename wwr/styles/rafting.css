@@ -11,7 +11,9 @@
 header {
 
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
+    display: grid;
+
 }
 
 * {
@@ -52,10 +54,10 @@ article {
 
 nav {
     padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: right;
 
 }
 
@@ -88,9 +90,9 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 10px;
-    left: 1px;
-    width: 96%;
+    bottom: 160px;
+    left: 70px;
+    width: 80%;
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
@@ -104,7 +106,10 @@ h1 {
 }
 
 footer {
-    color: var(--accent1-color)
+    color: var(--accent1-color);
+    display: grid;
+    justify-content: end;
+
 }
 
 figure {
