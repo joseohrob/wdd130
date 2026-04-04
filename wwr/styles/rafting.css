@@ -11,7 +11,7 @@
 header {
 
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
     display: grid;
 
 }
@@ -55,9 +55,8 @@ article {
 nav {
     padding: 10px;
     text-decoration: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: right;
+    display: flex;
+    justify-content: end;
 
 }
 
@@ -75,6 +74,12 @@ nav {
     display: block;
     width: 100%;
     height: auto;
+}
+
+section img {
+    float: right;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -116,5 +121,4 @@ figure {
     height: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
 }
