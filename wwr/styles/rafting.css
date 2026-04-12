@@ -52,6 +52,35 @@ article {
     padding: 8px;
 }
 
+p {
+    text-align: center;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-around;
+}
+
+motion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 2rem;
+    margin: 16px
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 2rem;
+    margin: 16px
+}
+
+body {
+    background-color: lightblue;
+}
+
 nav {
     padding: 10px;
     text-decoration: none;
@@ -69,6 +98,10 @@ nav {
     position: relative;
     padding: 16px;
     width: auto;
+}
+
+.herox img {
+    position: absolute
 }
 
 .hero img {
@@ -114,6 +147,7 @@ footer {
     color: var(--secondary-color);
     display: grid;
     justify-content: end;
+    background-color: var(--primary-color);
 
 }
 
@@ -122,24 +156,25 @@ figure {
     height: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 }
 
 form {
     align-self: left;
     width: 650px;
     margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.1);
+    padding: 2rem;
+    border: 2px solid rgb(0 0 0/ 0.1);
     background-color: #eee;
     display: grid;
 }
 
 fieldset {
     display: grid;
-    gap: .5rem;
-    margin: 1rem;
+    gap: 1rem;
+    margin: 2rem;
     border: 1px solid rgb(0 0 0/0.2);
-    padding: 1rem;
+    padding: 3rem;
 
 }
 
@@ -150,4 +185,42 @@ label {
 
 map {
     border: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.map,
+.form {
+    flex: 1
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb (140 140 140);
+    letter-spacing: 1px;
+    margin: 120px;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+
+}
+
+thead tr,
+tfoot tr {
+
+    background-color: var(--accent1-color);
+    color: white;
+    font-weight: 700;
 }
